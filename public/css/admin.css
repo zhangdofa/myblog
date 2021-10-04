@@ -1,0 +1,118 @@
+html,body{
+	height: 100%;
+	background-color: #fff;
+}
+
+#app {
+	width: 100%;
+	height: 100%;
+}
+
+.head a {
+	margin-left: 1%;	
+}
+
+.head {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	z-index: 999;
+}
+.head nav {
+	height: 40px;
+}
+.menu {
+	position: fixed;
+	top: 30px;
+	float: left;
+	width: 13%;
+	min-height: 100%;
+	background-color: rgb(232,233,238);
+}
+
+main {
+	position: fixed;
+	top: 45px;
+	left: 20%;
+	width: 80%;
+	/*right: 0;*/
+	padding-right: 5%;
+	bottom: 0;
+	overflow-y: auto;
+	/*margin-right: 3%;*/
+}
+
+.right {
+ 	width: 100%;
+ 	margin-right: 0;
+ 	min-height: auto
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li {
+	margin-top: 30px;
+	padding-left: 25%;
+}
+
+.item span {
+	padding-left: 10%;
+	color: #636775;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.item span img {
+	width: 15px;
+	height: 15px;	
+}
+.UL {
+	width: 100%;
+	padding: 0;
+	text-align: left;
+}
+
+.UL2 {
+	font-size: 13px;
+	width: 100%;
+	color: #00a0e9;
+	display: block;
+	padding: 0;
+}
+
+.UL2 a {
+	display: block;
+	margin-top: 10px;
+	padding-left: 30%;
+	text-decoration: none;
+	/*color: #636775;*/
+}
+
+.selected {
+	background: #414da7;
+	color: #fff;
+}
+
+.UL2 a:hover { 
+	color:blue; 
+} 
+
+#backid a{
+	color: #fff;
+	text-decoration: none;
+}
+
+div.center {
+	text-align: center;
+}
+
+.substance1 .headline {
+	text-align: center;
+}
+
+.next {
+	bottom: initial;
+}
