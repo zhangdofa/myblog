@@ -20,6 +20,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app1.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    @yield('referrer')
 </head>
 <body>
         <div class="head">

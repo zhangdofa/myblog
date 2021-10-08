@@ -1,4 +1,7 @@
 @extends('layouts.home')
+@section('referrer')
+    <meta name="referrer" content="no-referrer">
+@endsection
 @section('content')
     <div class="right">
         <div class="content">
